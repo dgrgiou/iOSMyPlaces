@@ -2,6 +2,24 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../testJSON">
+   </FileRef>
+   <FileRef
+      location = "group:../iOSMyPlaces/File">
+   </FileRef>
+   <FileRef
+      location = "group:../iOSMyPlaces/json.json">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/dimitriosgeorgiou/Documents/dgiou/iOSApps/iOSMyPlaces/iOSMyPlaces/PlacesViews.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/dimitriosgeorgiou/Documents/dgiou/iOSApps/iOSMyPlaces/iOSMyPlaces/PublicArt.json">
+   </FileRef>
+   <FileRef
+      location = "group:PublicArt.json">
+   </FileRef>
+   <FileRef
       location = "self:iOSMyPlaces.xcodeproj">
    </FileRef>
 </Workspace>

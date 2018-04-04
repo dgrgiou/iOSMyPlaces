@@ -13,6 +13,9 @@
 		E9478C262074C94D0073CD21 /* iOSMyPlaces.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9478C242074C94D0073CD21 /* iOSMyPlaces.xcdatamodeld */; };
 		E9478C282074C94E0073CD21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9478C272074C94E0073CD21 /* Assets.xcassets */; };
 		E9478C2B2074C94E0073CD21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9478C292074C94E0073CD21 /* LaunchScreen.storyboard */; };
+		E9478C332074CB5B0073CD21 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9478C322074CB5B0073CD21 /* Places.swift */; };
+		E9478C382074CF720073CD21 /* PlacesViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9478C372074CF720073CD21 /* PlacesViews.swift */; };
+		E9478C5920751BF90073CD21 /* PublicPlaces.json in Resources */ = {isa = PBXBuildFile; fileRef = E9478C5820751BF90073CD21 /* PublicPlaces.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		E9478C272074C94E0073CD21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9478C2A2074C94E0073CD21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9478C2C2074C94E0073CD21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9478C322074CB5B0073CD21 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		E9478C372074CF720073CD21 /* PlacesViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PlacesViews.swift; path = /Users/dimitriosgeorgiou/Documents/dgiou/iOSApps/iOSMyPlaces/iOSMyPlaces/PlacesViews.swift; sourceTree = "<absolute>"; };
+		E9478C5820751BF90073CD21 /* PublicPlaces.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PublicPlaces.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,11 @@
 		E9478C1C2074C94D0073CD21 /* iOSMyPlaces */ = {
 			isa = PBXGroup;
 			children = (
+				E9478C5820751BF90073CD21 /* PublicPlaces.json */,
 				E9478C1D2074C94D0073CD21 /* AppDelegate.swift */,
 				E9478C1F2074C94D0073CD21 /* ViewController.swift */,
+				E9478C322074CB5B0073CD21 /* Places.swift */,
+				E9478C372074CF720073CD21 /* PlacesViews.swift */,
 				E9478C212074C94D0073CD21 /* Main.storyboard */,
 				E9478C272074C94E0073CD21 /* Assets.xcassets */,
 				E9478C292074C94E0073CD21 /* LaunchScreen.storyboard */,
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9478C5920751BF90073CD21 /* PublicPlaces.json in Resources */,
 				E9478C2B2074C94E0073CD21 /* LaunchScreen.storyboard in Resources */,
 				E9478C282074C94E0073CD21 /* Assets.xcassets in Resources */,
 				E9478C232074C94D0073CD21 /* Main.storyboard in Resources */,
@@ -141,6 +151,8 @@
 				E9478C262074C94D0073CD21 /* iOSMyPlaces.xcdatamodeld in Sources */,
 				E9478C202074C94D0073CD21 /* ViewController.swift in Sources */,
 				E9478C1E2074C94D0073CD21 /* AppDelegate.swift in Sources */,
+				E9478C332074CB5B0073CD21 /* Places.swift in Sources */,
+				E9478C382074CF720073CD21 /* PlacesViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,11 +299,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ78JJR8MS;
 				INFOPLIST_FILE = iOSMyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dgiou.iOSMyPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiou.AfseDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -305,11 +318,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KZ78JJR8MS;
 				INFOPLIST_FILE = iOSMyPlaces/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dgiou.iOSMyPlaces;
+				PRODUCT_BUNDLE_IDENTIFIER = dgiou.AfseDemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
