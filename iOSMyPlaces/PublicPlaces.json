@@ -1,8 +1,14 @@
 {
     "data" :[
-             [ "My village", "Trikala - Pirra", "39.51874296", "21.44037771", "Plaque", [ null, "39.51874296", "21.44037771", null, false ], null ],
-             [ "beer place", " Birra-Birra", "37.93348277", "23.64791281", "Plaque", [ null, "37.93348277", "23.64791281", null, false ], null ],
-             [ "gaz station", "BP", "37.943904", "23.661625", "GazStation", [ null, "37.943904", "23.661625", null, false ], null ],
+             [ "My village", "Trikala - Pirra", "39.51874296", "21.44037771", "Plaque", null ],
+             [ "beer place", " Birra-Birra", "37.93348277", "23.64791281", "Plaque", null ],
+             [ "gaz station", "BP", "37.943904", "23.661625", "GazStation", null ],
+             [ "BP", "ΛΕΝΟΡΜΑΝ 187-191", "37.997614", "23.709869", "GazStation", null ],
+             [ "BP", "ΗΛΙΑ ΗΛΙΟΥ 19", "37.959141", "23.735161", "GazStation", null ],
+             [ "Shell", "ΙΟΛΗΣ 13", "37.964495", "23.734580", "GazStation", null ],
+             [ "Shell", "ΜΗΘΥΜΝΗΣ 44", "38.002325", "23.732198", "GazStation", null ],
+             [ "Shell", "ΠΕΙΡΑΙΩΣ 187-189 & ΑΛΟΠΗΣ", "37.970538", "23.703435", "GazStation", null ],
+             [ "Shell", "ΑΧΑΡΝΩΝ 397", "38.020618", "23.729104", "GazStation", null ],
              
              ]
 }
