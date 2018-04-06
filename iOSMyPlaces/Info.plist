@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>To show you cool things nearby</string>
+	<string>Application whould like to have access to your locations</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>To show or notify you of cool things nearby</string>
 	<key>CFBundleDevelopmentRegion</key>

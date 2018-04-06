@@ -1,0 +1,8 @@
+{
+  "data" :[
+           [ "My village", "Trikala - Pirra", "39.51874296", "21.44037771", "Plaque", [ null, "39.51874296", "21.44037771", null, false ], null ],
+           [ "beer place", " Birra-Birra", "37.93348277", "23.64791281", "Plaque", [ null, "37.93348277", "23.64791281", null, false ], null ],
+           [ "gaz station", "BP", "37.943904", "23.661625", "GazStation", [ null, "37.943904", "23.661625", null, false ], null ],
+
+     ]
+}

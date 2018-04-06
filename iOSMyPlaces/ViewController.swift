@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var mapView: MKMapView!
     var myPlaces : [Places] = [];
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 100000
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +26,15 @@ class ViewController: UIViewController {
         loadInitialData()
         mapView.addAnnotations(myPlaces)
     }
+    
+    @IBAction func zoomToLocation(_ sender: Any) {
+        
+        let userLocation = mapView.userLocation
+        let region = MKCoordinateRegionMakeWithDistance((userLocation.location?.coordinate)!, 2000,2000)
+        
+        mapView.setRegion(region, animated: true)
+    }
+    
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
