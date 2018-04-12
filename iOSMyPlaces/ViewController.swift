@@ -28,13 +28,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func zoomToLocation(_ sender: Any) {
-        
         let userLocation = mapView.userLocation
         let region = MKCoordinateRegionMakeWithDistance((userLocation.location?.coordinate)!, 2000,2000)
-        
+
         mapView.setRegion(region, animated: true)
     }
-    
+
+    @IBAction func callNumber(_ sender: Any) {
+          UIApplication.shared.open(URL(string: "tel://2104180812")!, options: [:], completionHandler: nil)
+//        UIApplication.shared.openURL(NSURL(string: "tel://00306947715910")! as URL)
+    }
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
@@ -90,6 +93,7 @@ extension ViewController: MKMapViewDelegate {
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView,
                  calloutAccessoryControlTapped control: UIControl) {
+        
         let location = view.annotation as! Places
         let launchOptions = [MKLaunchOptionsDirectionsModeKey:
             MKLaunchOptionsDirectionsModeDriving]

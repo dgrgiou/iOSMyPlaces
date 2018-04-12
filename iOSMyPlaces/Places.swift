@@ -52,14 +52,8 @@ class Places : NSObject, MKAnnotation{
     // pinTintColor for disciplines: Sculpture, Plaque, Mural, Monument, other
     var markerTintColor: UIColor  {
         switch discipline {
-        case "Monument":
-            return .red
-        case "Mural":
-            return .cyan
         case "Plaque":
             return .blue
-        case "Sculpture":
-            return .purple
         case "GazStation":
             return .purple
         default:
